@@ -25,9 +25,8 @@ namespace PRA_B4_FOTOKIOSK.controller
             ShopManager.SetShopReceipt("Eindbedrag\n€");
 
             // Vul de productlijst met producten
-            ShopManager.Products.Add(new KioskProduct() { Name = "Foto 10x15", Description = "Desc", Price = 59.99f });
-            ShopManager.Products.Add(new KioskProduct() { Name = "Foto 40x60", Description = "Desc", Price = 129.99f });
-
+            ShopManager.Products.Add(new KioskProduct() { Name = "Foto 10x15" });
+            
             // Update dropdown met producten
             ShopManager.UpdateDropDownProducts();
         }

@@ -8,7 +8,7 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sidar\\.nuget\\packages\\": {},
+    "C:\\Users\\levic\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,14 +17,14 @@
       "projectUniqueName": "C:\\laragon\\www\\praktijk-B4-fotokiosk\\PRA_B4_FOTOKIOSK\\PRA_B4_FOTOKIOSK\\PRA_B4_FOTOKIOSK.csproj",
       "projectName": "PRA_B4_FOTOKIOSK",
       "projectPath": "C:\\laragon\\www\\praktijk-B4-fotokiosk\\PRA_B4_FOTOKIOSK\\PRA_B4_FOTOKIOSK\\PRA_B4_FOTOKIOSK.csproj",
-      "packagesPath": "C:\\Users\\sidar\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\levic\\.nuget\\packages\\",
       "outputPath": "C:\\laragon\\www\\praktijk-B4-fotokiosk\\PRA_B4_FOTOKIOSK\\PRA_B4_FOTOKIOSK\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sidar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\levic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
