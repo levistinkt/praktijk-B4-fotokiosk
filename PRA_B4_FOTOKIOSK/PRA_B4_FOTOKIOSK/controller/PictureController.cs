@@ -22,6 +22,8 @@ namespace PRA_B4_FOTOKIOSK.controller
         // Start methode die wordt aangeroepen wanneer de foto pagina opent.
         public void Start()
         {
+            var now = DateTime.Now;
+            int day = (int)now.DayOfWeek;
 
             // Initializeer de lijst met fotos
             // WAARSCHUWING. ZONDER FILTER LAADT DIT ALLES!
@@ -32,14 +34,22 @@ namespace PRA_B4_FOTOKIOSK.controller
                  * dir string is de map waar de fotos in staan. Bijvoorbeeld:
                  * \fotos\0_Zondag
                  */
-                foreach (string file in Directory.GetFiles(dir))
+
+                if (dir.Substring(15, 1) == day.ToString())
                 {
-                    /**
-                     * file string is de file van de foto. Bijvoorbeeld:
-                     * \fotos\0_Zondag\10_05_30_id8824.jpg
-                     */
-                    PicturesToDisplay.Add(new KioskPhoto() { Id = 0, Source = file });
+                    foreach (string file in Directory.GetFiles(dir))
+                    {
+                        /**
+                         * file string is de file van de foto. Bijvoorbeeld:
+                         * \fotos\0_Zondag\10_05_30_id8824.jpg
+                         */
+
+                        PicturesToDisplay.Add(new KioskPhoto() { Id = 0, Source = file });
+                    }
+
                 }
+
+
             }
 
             // Update de fotos
