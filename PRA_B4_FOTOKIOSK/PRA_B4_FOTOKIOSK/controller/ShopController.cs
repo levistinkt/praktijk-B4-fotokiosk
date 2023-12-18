@@ -46,12 +46,13 @@ namespace PRA_B4_FOTOKIOSK.controller
         // Wordt uitgevoerd wanneer er op de Resetten knop is geklikt
         public void ResetButtonClick()
         {
-           
+            ShopManager.SetShopReceipt("Eindbedrag: \n€"); 
         }
 
         // Wordt uitgevoerd wanneer er op de Save knop is geklikt
         public void SaveButtonClick()
         {
+
         }
 
     }
