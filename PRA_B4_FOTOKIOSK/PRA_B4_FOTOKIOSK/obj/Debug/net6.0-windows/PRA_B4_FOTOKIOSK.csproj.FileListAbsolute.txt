@@ -3,7 +3,6 @@ C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\bin\Debug
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\bin\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.runtimeconfig.json
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\bin\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.dll
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\bin\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.pdb
-C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.csproj.AssemblyReference.cache
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\Home.g.cs
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\App.g.cs
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\PRA_B4_FOTOKIOSK_MarkupCompile.cache
