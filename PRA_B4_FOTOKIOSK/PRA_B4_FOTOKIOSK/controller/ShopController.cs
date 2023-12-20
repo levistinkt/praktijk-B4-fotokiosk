@@ -21,8 +21,10 @@ namespace PRA_B4_FOTOKIOSK.controller
             // Stel de prijslijst in aan de rechter kant.
             ShopManager.SetShopPriceList("Prijzen:\n");
 
+
             // Stel de bon in onderaan het scherm
-            ShopManager.SetShopReceipt("Eindbedrag\n€");
+            
+            
 
             // Vul de productlijst met producten
             ShopManager.Products.Add(new KioskProduct() { Name = "Foto 10x15", Description = "Desc", Price = 59.99f });
@@ -40,7 +42,12 @@ namespace PRA_B4_FOTOKIOSK.controller
         public void AddButtonClick()
         {
             KioskProduct product = ShopManager.GetSelectedProduct();
-            ShopManager.AddShopReceipt($"Prijs: {product.Price}\n");
+            float totalPrice = (float)(product.Price * ShopManager.GetAmount());
+            ShopManager.AddShopReceipt($"Foto ID: {ShopManager.GetFotoId()}\n");
+            ShopManager.AddShopReceipt($"Fotonummer: {product.Name}\n");
+            ShopManager.AddShopReceipt($"Aantal: {ShopManager.GetAmount()}\n");
+            ShopManager.AddShopReceipt($"Eindbedrag: €{totalPrice}\n");
+            //Als je dit meerdere keren wilt uitvoeren met verschillende IDs, schrijf code om bij elkaar op te tellen
         }
 
         // Wordt uitgevoerd wanneer er op de Resetten knop is geklikt
