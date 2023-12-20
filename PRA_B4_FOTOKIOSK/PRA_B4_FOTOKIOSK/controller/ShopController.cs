@@ -2,6 +2,7 @@
 using PRA_B4_FOTOKIOSK.models;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -52,6 +53,7 @@ namespace PRA_B4_FOTOKIOSK.controller
         // Wordt uitgevoerd wanneer er op de Save knop is geklikt
         public void SaveButtonClick()
         {
+            File.WriteAllText(@"Receipt.txt", ShopManager.GetShopReceipt());
 
         }
 
