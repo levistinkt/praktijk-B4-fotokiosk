@@ -40,7 +40,7 @@ namespace PRA_B4_FOTOKIOSK.controller
         public void AddButtonClick()
         {
             KioskProduct product = ShopManager.GetSelectedProduct();
-            ShopManager.AddShopReceipt(product.Name);
+            ShopManager.AddShopReceipt($"Prijs: {product.Price}\n");
         }
 
         // Wordt uitgevoerd wanneer er op de Resetten knop is geklikt
