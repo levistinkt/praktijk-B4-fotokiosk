@@ -13,7 +13,7 @@ namespace PRA_B4_FOTOKIOSK.controller
     public class ShopController
     {
 
-        public static Home Window { get; set; }
+       public static Home Window { get; set; }
 
         public List<KioskProduct> Products { get; set; }
 
