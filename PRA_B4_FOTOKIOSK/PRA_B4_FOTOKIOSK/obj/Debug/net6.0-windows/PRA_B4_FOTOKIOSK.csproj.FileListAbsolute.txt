@@ -18,4 +18,3 @@ C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.pdb
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.genruntimeconfig.cache
 C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\ref\PRA_B4_FOTOKIOSK.dll
-C:\laragon\www\praktijk-B4-fotokiosk\PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK\obj\Debug\net6.0-windows\PRA_B4_FOTOKIOSK.csproj.AssemblyReference.cache
