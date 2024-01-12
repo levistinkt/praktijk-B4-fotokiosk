@@ -61,7 +61,6 @@ namespace PRA_B4_FOTOKIOSK.controller
         public void SaveButtonClick()
         {
             File.WriteAllText(@"Receipt.txt", ShopManager.GetShopReceipt());
-
         }
 
     }
