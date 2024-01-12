@@ -39,16 +39,20 @@ namespace PRA_B4_FOTOKIOSK.controller
             ShopManager.UpdateDropDownProducts();
         }
 
-        // Wordt uitgevoerd wanneer er op de Toevoegen knop is geklikt
-        public void AddButtonClick()
+        private float totalAmount = 0.0f; // slaat de aantal op zodat het kan opgeteld worden
+                                          
+        public void AddButtonClick() // Wordt uitgevoerd wanneer er op de Toevoegen knop is geklikt
         {
             KioskProduct product = ShopManager.GetSelectedProduct();
             float totalPrice = (float)(product.Price * ShopManager.GetAmount());
+
+            // telt het totaal op
+            totalAmount += totalPrice;
+
             ShopManager.AddShopReceipt($"Foto ID: {ShopManager.GetFotoId()}\n");
             ShopManager.AddShopReceipt($"Fotonummer: {product.Name}\n");
             ShopManager.AddShopReceipt($"Aantal: {ShopManager.GetAmount()}\n");
-            ShopManager.AddShopReceipt($"Eindbedrag: €{totalPrice}\n");
-            //Als je dit meerdere keren wilt uitvoeren met verschillende IDs, schrijf code om bij elkaar op te tellen
+            ShopManager.AddShopReceipt($"Eindbedrag: €{totalAmount}\n");
         }
 
         // Wordt uitgevoerd wanneer er op de Resetten knop is geklikt
